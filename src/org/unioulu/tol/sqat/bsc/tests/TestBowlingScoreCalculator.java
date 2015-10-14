@@ -66,7 +66,12 @@ public class TestBowlingScoreCalculator {
 		this.bg = new BowlingGame();
 		this.initializeGame10Frames();
 		assertEquals( 81, bg.score() );
-		
+	}
+	
+	@Test
+	public void testIsStrike_100_true() {
+		Frame frame = new Frame( 10, 0);
+		assertEquals( true, frame.isStrike() );
 	}
 	
 	

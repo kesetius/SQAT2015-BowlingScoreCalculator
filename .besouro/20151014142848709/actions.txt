@@ -123,3 +123,10 @@ EditAction 1444824975970 BowlingGame.java 751 6 6 0
 UnitTestCaseAction 1444824977644 TestBowlingScoreCalculator.java OK
 UnitTestSessionAction 1444824977644 TestBowlingScoreCalculator OK
 EditAction 1444824987297 BowlingGame.java 736 6 6 0
+RefactoringAction 1444825120410 TestBowlingScoreCalculator.java ADD void test FIELD
+RefactoringAction 1444825123432 TestBowlingScoreCalculator.java RENAME test=>void testIsStrike_ FIELD
+RefactoringAction 1444825125451 TestBowlingScoreCalculator.java RENAME testIsStrike_=>void testIsStrike_10 FIELD
+RefactoringAction 1444825127473 TestBowlingScoreCalculator.java RENAME testIsStrike_10=>void testIsStrike_100_ FIELD
+RefactoringAction 1444825128494 TestBowlingScoreCalculator.java RENAME testIsStrike_100_=>void testIsStrike_100_true FIELD
+RefactoringAction 1444825131014 TestBowlingScoreCalculator.java RENAME testIsStrike_100_true=>void testIsStrike_100_true() METHOD
+EditAction 1444825157112 TestBowlingScoreCalculator.java 1879 8 32 7
