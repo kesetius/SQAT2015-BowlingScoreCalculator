@@ -99,6 +99,12 @@ public class TestBowlingScoreCalculator {
 	}
 	
 	@Test
+	public void isSpare_19_true() {
+		Frame frame = new Frame ( 1, 9 );
+		assertEquals( true, frame.isSpare() );
+	}
+	
+	@Test
 	public void testSpare_88_88() {
 		this.bg = new BowlingGame();
 		this.bg.addFrame( new Frame(1,9) );
