@@ -28,17 +28,15 @@ public class BowlingGame {
 		boolean strikeOnHold = false;
 		
 		for( Frame frame : this.frames) {
-			if( frame.isStrike() )
-				strikeOnHold = true;
-			sum += frame.score();
 			
 			if( strikeOnHold = true ) {
 				sum += 10;
 				strikeOnHold = false;				
 			}
-
 			
-			
+			if( frame.isStrike() )
+				strikeOnHold = true;
+			sum += frame.score();
 		}
 			
 		return sum;
