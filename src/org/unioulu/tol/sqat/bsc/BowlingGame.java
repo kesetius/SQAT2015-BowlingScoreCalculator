@@ -38,15 +38,12 @@ public class BowlingGame {
 			if( spareOnHold == true ) {
 				sum += frame.getThrowValues()[0];
 				spareOnHold = false;
-			}
-			
-			sum += frame.score();
-			
+			}			
+			sum += frame.score();			
 			if( frame.isStrike() )
 				strikeOnHold = true;
 			if( frame.isSpare() )
 				spareOnHold = true;
-			
 		}
 			
 		return sum;
