@@ -27,7 +27,7 @@ public class TestBowlingScoreCalculator {
 	}
 	
 	@Test
-	public void testAddFrame1_1() {
+	public void testAddFrame_1_1() {
 		this.bg.addFrame( new Frame(1,5) );
 		assertEquals( 1, bg.getFrameCount());
 	}
