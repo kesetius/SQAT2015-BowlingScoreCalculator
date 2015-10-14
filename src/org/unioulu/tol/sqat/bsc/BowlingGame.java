@@ -26,6 +26,7 @@ public class BowlingGame {
 		//to be implemented
 		int sum = 0;
 		boolean strikeOnHold = false;
+		boolean spareOnHold  = false;
 		
 		for( Frame frame : this.frames) {
 			
@@ -34,10 +35,18 @@ public class BowlingGame {
 				strikeOnHold = false;				
 			}
 			
+			if( spareOnHold == true ) {
+				sum += frame.getThrowValues()[0];
+				spareOnHold = false;
+			}
+			
 			sum += frame.score();
 			
 			if( frame.isStrike() )
 				strikeOnHold = true;
+			if( frame.isSpare() )
+				spareOnHold = true;
+			
 		}
 			
 		return sum;
