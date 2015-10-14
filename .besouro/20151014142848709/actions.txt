@@ -157,3 +157,4 @@ RefactoringAction 1444825516767 BowlingGame.java RENAME modifyFrame()=>void modi
 RefactoringAction 1444825531823 BowlingGame.java RENAME modifyFrame(int)=>void modifyFrame(int, Frame) METHOD
 RefactoringAction 1444825661858 BowlingGame.java REMOVE modifyFrame(int, Frame) METHOD
 EditAction 1444825663138 BowlingGame.java 737 6 6 0
+EditAction 1444825699576 TestBowlingScoreCalculator.java 2506 10 45 8
