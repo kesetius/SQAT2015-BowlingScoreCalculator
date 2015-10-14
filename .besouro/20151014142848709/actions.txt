@@ -53,3 +53,7 @@ RefactoringAction 1444823834189 TestBowlingScoreCalculator.java ADD void testFra
 RefactoringAction 1444823835702 TestBowlingScoreCalculator.java RENAME testFrameScore_=>void testFrameScore FIELD
 RefactoringAction 1444823840714 TestBowlingScoreCalculator.java RENAME testFrameScore=>void testFrameScore() METHOD
 EditAction 1444823902931 TestBowlingScoreCalculator.java 575 2 7 2
+UnitTestCaseAction 1444823904772 TestBowlingScoreCalculator.java OK
+UnitTestSessionAction 1444823904772 TestBowlingScoreCalculator OK
+RefactoringAction 1444823922575 TestBowlingScoreCalculator.java RENAME testFrameScore()=>void testFrameScore_23_5() METHOD
+EditAction 1444823922591 TestBowlingScoreCalculator.java 588 2 7 2
