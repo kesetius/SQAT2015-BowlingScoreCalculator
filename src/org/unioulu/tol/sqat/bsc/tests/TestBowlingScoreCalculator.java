@@ -149,5 +149,16 @@ public class TestBowlingScoreCalculator {
 		assertEquals( 103, this.bg.score());	
 	}
 	
-
+	@Test
+	public void testSubSequentFrame_14_14() {
+		
+		Frame frame = new Frame( 5, 3);
+		frame.addSuqSequent( new Frame(1,4) );
+		
+		
+	}
+	
+	
+	
+	
 }

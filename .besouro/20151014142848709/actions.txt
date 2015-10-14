@@ -269,3 +269,14 @@ EditAction 1444827751587 TestBowlingScoreCalculator.java 3995 15 76 14
 UnitTestCaseAction 1444827753193 TestBowlingScoreCalculator.java OK
 UnitTestSessionAction 1444827753194 TestBowlingScoreCalculator OK
 EditAction 1444828078523 Frame.java 1056 7 13 0
+RefactoringAction 1444828090193 TestBowlingScoreCalculator.java ADD void sub FIELD
+RefactoringAction 1444828092718 TestBowlingScoreCalculator.java RENAME sub=>void testSubS FIELD
+RefactoringAction 1444828093743 TestBowlingScoreCalculator.java RENAME testSubS=>void testSubSe FIELD
+RefactoringAction 1444828098769 TestBowlingScoreCalculator.java RENAME testSubSe=>void testSubSequentFrame FIELD
+RefactoringAction 1444828099792 TestBowlingScoreCalculator.java RENAME testSubSequentFrame=>void testSubSequentFrame_ FIELD
+RefactoringAction 1444828101319 TestBowlingScoreCalculator.java RENAME testSubSequentFrame_=>void testSubSequentFrame_81 FIELD
+RefactoringAction 1444828102343 TestBowlingScoreCalculator.java RENAME testSubSequentFrame_81=>void testSubSequentFrame_81_81 FIELD
+RefactoringAction 1444828104865 TestBowlingScoreCalculator.java RENAME testSubSequentFrame_81_81=>void testSubSequentFrame_ FIELD
+RefactoringAction 1444828106390 TestBowlingScoreCalculator.java RENAME testSubSequentFrame_=>void testSubSequentFrame_14_14 FIELD
+RefactoringAction 1444828108912 TestBowlingScoreCalculator.java RENAME testSubSequentFrame_14_14=>void testSubSequentFrame_14_14() METHOD
+EditAction 1444828153675 TestBowlingScoreCalculator.java 4150 16 78 14
