@@ -74,6 +74,12 @@ public class TestBowlingScoreCalculator {
 		assertEquals( true, frame.isStrike() );
 	}
 	
+	@Test
+	public void testIsTrike_91_false() {
+		Frame frame = new Frame( 9, 1);
+		assertEquals( true, frame.isStrike() );	
+	}
+	
 	
 	
 	

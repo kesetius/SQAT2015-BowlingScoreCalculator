@@ -136,3 +136,9 @@ EditAction 1444825165066 Frame.java 963 7 11 0
 UnitTestCaseAction 1444825166611 TestBowlingScoreCalculator.java OK
 UnitTestSessionAction 1444825166612 TestBowlingScoreCalculator OK
 EditAction 1444825188337 Frame.java 989 7 12 0
+UnitTestCaseAction 1444825239008 TestBowlingScoreCalculator.java OK
+UnitTestSessionAction 1444825239009 TestBowlingScoreCalculator OK
+RefactoringAction 1444825256337 TestBowlingScoreCalculator.java ADD void testIsTrike_9 FIELD
+RefactoringAction 1444825257858 TestBowlingScoreCalculator.java RENAME testIsTrike_9=>void testIsTrike_91 FIELD
+RefactoringAction 1444825261880 TestBowlingScoreCalculator.java RENAME testIsTrike_91=>void testIsTrike_91_false() METHOD
+EditAction 1444825270664 TestBowlingScoreCalculator.java 2012 9 34 8
