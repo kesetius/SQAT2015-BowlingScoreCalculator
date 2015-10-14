@@ -55,3 +55,7 @@
 1444827012206 test-first 3 263 true
 1444827012207 test-last 1 263 false
 1444827377460 test-last 1 350 false
+1444827567475 test-addition 2 182 true
+1444827567476 test-addition 1 182 true
+1444827567477 test-addition 2 182 true
+1444827567478 test-addition 1 182 true
