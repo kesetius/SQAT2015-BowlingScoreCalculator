@@ -11,7 +11,7 @@ public class TestBowlingScoreCalculator {
 	public BowlingGame bg;
 	
 	
-	public void initializeGame10Frames() {
+	private void initializeGame10Frames() {
 		this.bg.addFrame( new Frame(1,5) );
 		this.bg.addFrame( new Frame(3,6) );
 		this.bg.addFrame( new Frame(7,2) );

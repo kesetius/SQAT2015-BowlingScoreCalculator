@@ -104,3 +104,4 @@ UnitTestCaseAction 1444824632655 TestBowlingScoreCalculator.java OK
 UnitTestSessionAction 1444824632655 TestBowlingScoreCalculator OK
 RefactoringAction 1444824700524 TestBowlingScoreCalculator.java ADD void initializeGame10Frames() METHOD
 EditAction 1444824724339 TestBowlingScoreCalculator.java 1457 6 23 5
+EditAction 1444824739973 TestBowlingScoreCalculator.java 1458 6 23 5
