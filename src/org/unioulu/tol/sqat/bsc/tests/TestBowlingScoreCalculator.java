@@ -11,7 +11,10 @@ public class TestBowlingScoreCalculator {
 	@Test
 	public void testFrame() {
 		Frame frame = new Frame( 3, 4 );
-		fail("Not yet implemented");
+		int[] expected = new int[] {3,4}; 
+		assertEquals( expected, frame.getThrowValues());
 	}
+	
+	
 
 }

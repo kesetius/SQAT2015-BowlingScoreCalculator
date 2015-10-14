@@ -17,3 +17,6 @@ RefactoringAction 1444823258155 Frame.java RENAME get=>int getTh FIELD
 RefactoringAction 1444823260672 Frame.java RENAME getTh=>int getThrowValue() METHOD
 RefactoringAction 1444823270207 Frame.java RENAME getThrowValue()=>int getThrowValues() METHOD
 EditAction 1444823444586 Frame.java 926 7 11 0
+CompilationAction 1444823444731 Frame.java
+CompilationAction 1444823464226 Frame.java
+EditAction 1444823634203 TestBowlingScoreCalculator.java 414 1 3 1

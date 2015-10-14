@@ -11,7 +11,7 @@ public class Frame {
 	
 	public int[] getThrowValues() {
 		
-		int[] anArray = 0;
+		int[] anArray = new int[2];
 		
 		anArray[0] = 3;
 		anArray[1] = 4;
