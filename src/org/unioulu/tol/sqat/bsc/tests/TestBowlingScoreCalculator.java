@@ -9,7 +9,7 @@ import org.unioulu.tol.sqat.bsc.Frame;
 public class TestBowlingScoreCalculator {
 
 	@Test
-	public void testFrame() {
+	public void testFrame_34_34() {
 		Frame frame = new Frame( 3, 4 );
 		int[] expected = new int[2];
 		expected[0] = 3;
