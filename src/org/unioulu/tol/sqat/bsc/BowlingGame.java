@@ -34,6 +34,7 @@ public class BowlingGame {
 			}
 			if( frame.isStrike() )
 				strike = true;
+			
 			sum += frame.score();
 		}
 			
