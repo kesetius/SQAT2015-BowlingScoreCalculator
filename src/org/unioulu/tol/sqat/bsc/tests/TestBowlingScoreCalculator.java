@@ -153,7 +153,7 @@ public class TestBowlingScoreCalculator {
 	public void testSubSequentFrame_14_14() {
 		
 		Frame frame = new Frame( 5, 3 );
-		frame.addSubSequent( new Frame( 1,4 ) );
+		frame.addSubSequent( new Frame( 1,5 ) );
 		int[] expected = new int[2];
 		expected[0] = 1;
 		expected[1] = 4;
