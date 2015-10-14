@@ -154,7 +154,10 @@ public class TestBowlingScoreCalculator {
 		
 		Frame frame = new Frame( 5, 3 );
 		frame.addSubSequent( new Frame( 1,4 ) );
-		assertEquals(  )
+		int[] expected = new int[2];
+		expected[0] = 1;
+		expected[1] = 4;
+		assertArrayEquals( expected, frame.getSubSequent().getThrowValues() );
 		
 		
 	}
