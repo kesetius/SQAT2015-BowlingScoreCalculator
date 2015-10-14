@@ -38,7 +38,6 @@ public class BowlingGame {
 			
 			if( frame.isStrike() )
 				strikeOnHold = true;
-			
 		}
 			
 		return sum;
