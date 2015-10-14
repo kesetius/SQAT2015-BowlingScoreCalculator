@@ -233,3 +233,7 @@ EditAction 1444826734965 Frame.java 1060 7 13 0
 UnitTestCaseAction 1444826736525 TestBowlingScoreCalculator.java OK
 UnitTestSessionAction 1444826736526 TestBowlingScoreCalculator OK
 EditAction 1444826748981 Frame.java 1056 7 13 0
+RefactoringAction 1444826799197 TestBowlingScoreCalculator.java ADD void testSpareScore FIELD
+RefactoringAction 1444826806722 TestBowlingScoreCalculator.java RENAME testSpareScore=>void testSpareScore_ FIELD
+RefactoringAction 1444826811743 TestBowlingScoreCalculator.java RENAME testSpareScore_=>void testSpareScore_88_88() METHOD
+EditAction 1444826909527 TestBowlingScoreCalculator.java 3458 14 64 13
