@@ -346,3 +346,4 @@ RefactoringAction 1444829441886 TestBowlingScoreCalculator.java RENAME twoStrike
 RefactoringAction 1444829446407 TestBowlingScoreCalculator.java RENAME twoStrikesInARowFirstSc()=>void twoStrikesInARowFirstsScore_() METHOD
 RefactoringAction 1444829453429 TestBowlingScoreCalculator.java RENAME twoStrikesInARowFirstsScore_()=>void twoStrikesInARowFirstsScore_27_27() METHOD
 EditAction 1444829466478 TestBowlingScoreCalculator.java 4752 18 91 17
+EditAction 1444829476817 Frame.java 1399 9 18 0
