@@ -142,3 +142,6 @@ RefactoringAction 1444825256337 TestBowlingScoreCalculator.java ADD void testIsT
 RefactoringAction 1444825257858 TestBowlingScoreCalculator.java RENAME testIsTrike_9=>void testIsTrike_91 FIELD
 RefactoringAction 1444825261880 TestBowlingScoreCalculator.java RENAME testIsTrike_91=>void testIsTrike_91_false() METHOD
 EditAction 1444825270664 TestBowlingScoreCalculator.java 2012 9 34 8
+UnitTestCaseAction 1444825272241 TestBowlingScoreCalculator.java FAIL
+UnitTestSessionAction 1444825272241 TestBowlingScoreCalculator FAIL
+EditAction 1444825276769 TestBowlingScoreCalculator.java 2013 9 34 8
