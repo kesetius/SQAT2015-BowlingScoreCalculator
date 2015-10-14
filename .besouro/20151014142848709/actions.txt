@@ -160,3 +160,6 @@ EditAction 1444825663138 BowlingGame.java 737 6 6 0
 EditAction 1444825699576 TestBowlingScoreCalculator.java 2506 10 45 8
 EditAction 1444825836714 TestBowlingScoreCalculator.java 2509 10 45 8
 EditAction 1444825873746 TestBowlingScoreCalculator.java 2497 10 45 8
+RefactoringAction 1444825940273 TestBowlingScoreCalculator.java RENAME testStrikeScore()=>void testStrikeScore_() METHOD
+RefactoringAction 1444825943296 TestBowlingScoreCalculator.java RENAME testStrikeScore_()=>void testStrikeScore_94_94() METHOD
+EditAction 1444825944314 TestBowlingScoreCalculator.java 2503 10 45 8

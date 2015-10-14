@@ -81,7 +81,7 @@ public class TestBowlingScoreCalculator {
 	}
 	
 	@Test
-	public void testStrikeScore() {
+	public void testStrikeScore_94_94() {
 		this.bg = new BowlingGame();
 		this.bg.addFrame( new Frame(10,0) );
 		this.bg.addFrame( new Frame(3,6)  );
