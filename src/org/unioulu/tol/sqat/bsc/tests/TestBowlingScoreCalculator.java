@@ -159,6 +159,12 @@ public class TestBowlingScoreCalculator {
 		assertArrayEquals( expected, frame.getSubSequent().getThrowValues() );
 	}
 	
+	@Test
+	public void testStrikeFrameScore_19_19() {
+		Frame frame = new Frame( 10,0 );
+		frame.addSubSequent( new Frame(3,6) );
+		assertEquals(19,frame.score());	
+	}
 	
 	
 	
