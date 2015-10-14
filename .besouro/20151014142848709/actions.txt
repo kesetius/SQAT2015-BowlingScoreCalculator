@@ -218,3 +218,4 @@ RefactoringAction 1444826646602 TestBowlingScoreCalculator.java RENAME isSpare=>
 RefactoringAction 1444826647621 TestBowlingScoreCalculator.java RENAME isSpare_=>void isSpare_1 FIELD
 RefactoringAction 1444826650643 TestBowlingScoreCalculator.java RENAME isSpare_1=>void isSpare_18_false() METHOD
 EditAction 1444826661005 TestBowlingScoreCalculator.java 2803 12 50 11
+EditAction 1444826666856 TestBowlingScoreCalculator.java 2804 12 50 11
