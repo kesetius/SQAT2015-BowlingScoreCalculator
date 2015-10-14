@@ -291,3 +291,7 @@ RefactoringAction 1444828229476 Frame.java RENAME addSubSequent=>void addSubSequ
 RefactoringAction 1444828237011 Frame.java ADD Frame sub FIELD
 RefactoringAction 1444828239522 Frame.java RENAME sub=>Frame subSequent FIELD
 EditAction 1444828275323 Frame.java 1164 8 14 0
+CompilationAction 1444828275468 TestBowlingScoreCalculator.java
+CompilationAction 1444828275468 TestBowlingScoreCalculator.java
+CompilationAction 1444828275468 TestBowlingScoreCalculator.java
+EditAction 1444828289673 TestBowlingScoreCalculator.java 4173 16 76 14
