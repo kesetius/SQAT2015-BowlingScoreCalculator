@@ -350,3 +350,8 @@ EditAction 1444829476817 Frame.java 1399 9 18 0
 UnitTestCaseAction 1444829479922 TestBowlingScoreCalculator.java FAIL
 UnitTestSessionAction 1444829479922 TestBowlingScoreCalculator FAIL
 EditAction 1444829600982 Frame.java 1511 9 14 0
+CompilationAction 1444829601220 Frame.java
+CompilationAction 1444829614936 Frame.java
+UnitTestCaseAction 1444829616354 TestBowlingScoreCalculator.java FAIL
+UnitTestSessionAction 1444829616355 TestBowlingScoreCalculator FAIL
+EditAction 1444829639527 Frame.java 1397 9 18 0
