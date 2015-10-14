@@ -158,8 +158,6 @@ public class TestBowlingScoreCalculator {
 		expected[0] = 1;
 		expected[1] = 4;
 		assertArrayEquals( expected, frame.getSubSequent().getThrowValues() );
-		
-		
 	}
 	
 	
