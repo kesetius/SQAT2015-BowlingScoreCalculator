@@ -331,3 +331,18 @@ EditAction 1444828699201 Frame.java 1354 9 18 0
 UnitTestCaseAction 1444828701002 TestBowlingScoreCalculator.java FAIL
 UnitTestSessionAction 1444828701002 TestBowlingScoreCalculator FAIL
 EditAction 1444828952389 Frame.java 1408 9 18 0
+UnitTestCaseAction 1444828955127 TestBowlingScoreCalculator.java OK
+UnitTestSessionAction 1444828955127 TestBowlingScoreCalculator OK
+RefactoringAction 1444829331702 TestBowlingScoreCalculator.java ADD void two FIELD
+RefactoringAction 1444829334227 TestBowlingScoreCalculator.java RENAME two=>void twoStrikes FIELD
+RefactoringAction 1444829336753 TestBowlingScoreCalculator.java RENAME twoStrikes=>void twoStrikesInAR FIELD
+RefactoringAction 1444829340276 TestBowlingScoreCalculator.java RENAME twoStrikesInAR=>void twoStrikesInARow FIELD
+RefactoringAction 1444829358302 TestBowlingScoreCalculator.java RENAME twoStrikesInARow=>void twoStrikesInARow_27 FIELD
+RefactoringAction 1444829360327 TestBowlingScoreCalculator.java RENAME twoStrikesInARow_27=>void twoStrikesInARow_ FIELD
+RefactoringAction 1444829363353 TestBowlingScoreCalculator.java RENAME twoStrikesInARow_=>void twoStrikesInARow FIELD
+RefactoringAction 1444829366378 TestBowlingScoreCalculator.java RENAME twoStrikesInARow=>void twoStrikesInARow() METHOD
+RefactoringAction 1444829438361 TestBowlingScoreCalculator.java RENAME twoStrikesInARow()=>void twoStrikesInARow_() METHOD
+RefactoringAction 1444829441886 TestBowlingScoreCalculator.java RENAME twoStrikesInARow_()=>void twoStrikesInARowFirstSc() METHOD
+RefactoringAction 1444829446407 TestBowlingScoreCalculator.java RENAME twoStrikesInARowFirstSc()=>void twoStrikesInARowFirstsScore_() METHOD
+RefactoringAction 1444829453429 TestBowlingScoreCalculator.java RENAME twoStrikesInARowFirstsScore_()=>void twoStrikesInARowFirstsScore_27_27() METHOD
+EditAction 1444829466478 TestBowlingScoreCalculator.java 4752 18 91 17

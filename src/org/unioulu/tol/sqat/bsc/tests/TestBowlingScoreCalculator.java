@@ -166,6 +166,18 @@ public class TestBowlingScoreCalculator {
 		assertEquals(19,frame.score());	
 	}
 	
+	@Test
+	public void twoStrikesInARowFirstsScore_27_27() {
+		Frame frame1 = new Frame( 10,0 );
+		Frame frame2 = new Frame( 10,0 );
+		Frame frame3 = new Frame( 7,2 );
+		frame1.addSubSequent( frame2 );
+		frame2.addSubSequent( frame3 );
+		
+		assertEquals( 27, frame1.score());
+		
+		
+	}
 	
 	
 }
