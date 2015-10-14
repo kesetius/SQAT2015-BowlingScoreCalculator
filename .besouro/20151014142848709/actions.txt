@@ -76,3 +76,4 @@ EditAction 1444824336431 BowlingGame.java 649 6 3 0
 RefactoringAction 1444824355947 TestBowlingScoreCalculator.java ADD void testFrameCount() METHOD
 EditAction 1444824360825 TestBowlingScoreCalculator.java 727 3 8 2
 EditAction 1444824366777 BowlingGame.java 652 6 3 0
+EditAction 1444824410592 TestBowlingScoreCalculator.java 764 3 9 3
