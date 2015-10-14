@@ -133,6 +133,21 @@ public class TestBowlingScoreCalculator {
 		assertEquals( 88, this.bg.score());
 	}
 	
-	
+	@Test
+	public void testStrikeFollowedBySpare_103_103() {
+		this.bg = new BowlingGame();
+		this.bg.addFrame( new Frame(10,0) );
+		this.bg.addFrame( new Frame(4,6)  );
+		this.bg.addFrame( new Frame(7,2)  );
+		this.bg.addFrame( new Frame(3,6)  );
+		this.bg.addFrame( new Frame(4,4)  );
+		this.bg.addFrame( new Frame(5,3)  );
+		this.bg.addFrame( new Frame(3,3)  );
+		this.bg.addFrame( new Frame(4,5)  );
+		this.bg.addFrame( new Frame(8,1)  );
+		this.bg.addFrame( new Frame(2,6)  );
+		
+		assertEquals( 103, this.bg.score());	
+	}
 
 }
