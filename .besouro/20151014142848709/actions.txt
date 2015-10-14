@@ -49,3 +49,7 @@ RefactoringAction 1444823817630 TestBowlingScoreCalculator.java ADD void testFra
 RefactoringAction 1444823819141 TestBowlingScoreCalculator.java REMOVE testFrame_3 FIELD
 RefactoringAction 1444823820653 TestBowlingScoreCalculator.java ADD void testFrame_34_3 FIELD
 EditAction 1444823823781 TestBowlingScoreCalculator.java 459 1 5 1
+RefactoringAction 1444823834189 TestBowlingScoreCalculator.java ADD void testFrameScore_ FIELD
+RefactoringAction 1444823835702 TestBowlingScoreCalculator.java RENAME testFrameScore_=>void testFrameScore FIELD
+RefactoringAction 1444823840714 TestBowlingScoreCalculator.java RENAME testFrameScore=>void testFrameScore() METHOD
+EditAction 1444823902931 TestBowlingScoreCalculator.java 575 2 7 2
