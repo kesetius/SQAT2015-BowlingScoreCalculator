@@ -25,19 +25,19 @@ public class BowlingGame {
 	public int score(){
 		//to be implemented
 		int sum = 0;
-		boolean strike = false;
+		boolean strikeOnHold = false;
 		
 		for( Frame frame : this.frames) {
 			
-			if( strike == true ) {
+			if( strikeOnHold == true ) {
 				sum += frame.score();
-				strike = false;				
+				strikeOnHold = false;				
 			}
 			
 			sum += frame.score();
 			
 			if( frame.isStrike() )
-				strike = true;
+				strikeOnHold = true;
 			
 		}
 			
