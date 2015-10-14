@@ -93,3 +93,10 @@ RefactoringAction 1444824497293 TestBowlingScoreCalculator.java RENAME testAddFr
 RefactoringAction 1444824498309 TestBowlingScoreCalculator.java RENAME testAddFrame_2_1()=>void testAddFrame_2_2() METHOD
 EditAction 1444824509467 TestBowlingScoreCalculator.java 933 4 12 4
 EditAction 1444824513012 TestBowlingScoreCalculator.java 933 4 12 4
+UnitTestCaseAction 1444824514251 TestBowlingScoreCalculator.java OK
+UnitTestSessionAction 1444824514252 TestBowlingScoreCalculator OK
+RefactoringAction 1444824563566 TestBowlingScoreCalculator.java ADD void test FIELD
+RefactoringAction 1444824564583 TestBowlingScoreCalculator.java RENAME test=>void testA FIELD
+RefactoringAction 1444824565599 TestBowlingScoreCalculator.java RENAME testA=>void test FIELD
+RefactoringAction 1444824585635 TestBowlingScoreCalculator.java RENAME test=>void testAddFrame_10_10() METHOD
+EditAction 1444824630352 TestBowlingScoreCalculator.java 1418 5 23 5
