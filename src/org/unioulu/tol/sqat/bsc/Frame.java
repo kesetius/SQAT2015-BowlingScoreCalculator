@@ -33,9 +33,6 @@ public class Frame {
 		if( this.isStrike() ) {
 			if(this.getSubSequent() != null)
 				score += this.getSubSequent().score();
-				if( this.getSubSequent().getSubSequent() != null )
-					if( this.getSubSequent().getSubSequent().isStrike() )
-						score += this.getSubSequent().getSubSequent().score();
 		}
 		score += this.firstThrow + this.secondThrow;
 		
