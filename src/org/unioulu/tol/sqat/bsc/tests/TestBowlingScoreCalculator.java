@@ -93,6 +93,9 @@ public class TestBowlingScoreCalculator {
 		this.bg.addFrame( new Frame(4,5)  );
 		this.bg.addFrame( new Frame(8,1)  );
 		this.bg.addFrame( new Frame(2,6)  );
+		
+		assertEquals( 94, this.bg.score());
+		
 	}
 	
 	
