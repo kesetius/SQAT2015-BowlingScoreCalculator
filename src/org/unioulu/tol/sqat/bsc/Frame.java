@@ -3,10 +3,15 @@ package org.unioulu.tol.sqat.bsc;
 public class Frame {
 	private int firstThrow;
 	private int secondThrow;
+	private Frame subSequent;
 	
 	public Frame(int firstThrow, int secondThrow){
 		this.firstThrow = firstThrow;
 		this.secondThrow = secondThrow;
+	}
+	
+	public void addSubSequent( Frame frame ) {
+		this.subSequent = frame;
 	}
 	
 	public int[] getThrowValues() {
