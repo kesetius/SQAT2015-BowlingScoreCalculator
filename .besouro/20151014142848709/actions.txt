@@ -203,3 +203,5 @@ UnitTestSessionAction 1444826525943 TestBowlingScoreCalculator FAIL
 RefactoringAction 1444826547320 TestBowlingScoreCalculator.java ADD void isSpare_true_true() METHOD
 RefactoringAction 1444826576919 TestBowlingScoreCalculator.java RENAME isSpare_true_true()=>void isSpare_19_true() METHOD
 EditAction 1444826589144 TestBowlingScoreCalculator.java 3201 12 60 11
+RefactoringAction 1444826593036 TestBowlingScoreCalculator.java REMOVE testSpare_88_88() METHOD
+EditAction 1444826593086 TestBowlingScoreCalculator.java 2677 11 48 10

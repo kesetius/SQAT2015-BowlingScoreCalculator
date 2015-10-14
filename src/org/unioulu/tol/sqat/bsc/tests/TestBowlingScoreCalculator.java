@@ -104,24 +104,7 @@ public class TestBowlingScoreCalculator {
 		assertEquals( true, frame.isSpare() );
 	}
 	
-	@Test
-	public void testSpare_88_88() {
-		this.bg = new BowlingGame();
-		this.bg.addFrame( new Frame(1,9) );
-		this.bg.addFrame( new Frame(3,6)  );
-		this.bg.addFrame( new Frame(7,2)  );
-		this.bg.addFrame( new Frame(3,6)  );
-		this.bg.addFrame( new Frame(4,4)  );
-		this.bg.addFrame( new Frame(5,3)  );
-		this.bg.addFrame( new Frame(3,3)  );
-		this.bg.addFrame( new Frame(4,5)  );
-		this.bg.addFrame( new Frame(8,1)  );
-		this.bg.addFrame( new Frame(2,6)  );
-		
-		assertEquals( 88, this.bg.score());
-	}
-	
-	
+
 	
 	
 	
