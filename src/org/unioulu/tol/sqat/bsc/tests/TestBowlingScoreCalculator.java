@@ -8,8 +8,21 @@ import org.unioulu.tol.sqat.bsc.Frame;
 
 public class TestBowlingScoreCalculator {
 
-	public BowlingGame bg = new BowlingGame();
+	public BowlingGame bg;
 	
+	
+	public void initializeGame10Frames() {
+		this.bg.addFrame( new Frame(1,5) );
+		this.bg.addFrame( new Frame(3,6) );
+		this.bg.addFrame( new Frame(7,2) );
+		this.bg.addFrame( new Frame(3,6) );
+		this.bg.addFrame( new Frame(4,4) );
+		this.bg.addFrame( new Frame(5,3) );
+		this.bg.addFrame( new Frame(3,3) );
+		this.bg.addFrame( new Frame(4,5) );
+		this.bg.addFrame( new Frame(8,1) );
+		this.bg.addFrame( new Frame(2,6) );	
+	}
 	
 	@Test
 	public void testFrame_34_34() {
@@ -41,18 +54,11 @@ public class TestBowlingScoreCalculator {
 	
 	@Test
 	public void testAddFrame_10_10() {
-		this.bg.addFrame( new Frame(1,5) );
-		this.bg.addFrame( new Frame(3,6) );
-		this.bg.addFrame( new Frame(7,2) );
-		this.bg.addFrame( new Frame(3,6) );
-		this.bg.addFrame( new Frame(4,4) );
-		this.bg.addFrame( new Frame(5,3) );
-		this.bg.addFrame( new Frame(3,3) );
-		this.bg.addFrame( new Frame(4,5) );
-		this.bg.addFrame( new Frame(8,1) );
-		this.bg.addFrame( new Frame(2,6) );
+		
 		assertEquals( 10, bg.getFrameCount());	
 	}
+	
+	
 	
 	
 
