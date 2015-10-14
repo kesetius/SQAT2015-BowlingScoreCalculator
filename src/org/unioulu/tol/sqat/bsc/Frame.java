@@ -34,6 +34,7 @@ public class Frame {
 			if(this.getSubSequent() != null)
 				score += this.getSubSequent().score();
 		}
+		
 		score += this.firstThrow + this.secondThrow;
 		
 		return score;
