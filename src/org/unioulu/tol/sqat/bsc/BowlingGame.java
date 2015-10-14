@@ -10,6 +10,10 @@ public class BowlingGame {
 	
 	public BowlingGame(){}
 	
+	public int frameCount() {
+		return this.frames.size();
+	}
+	
 	public void addFrame(Frame frame){
 		//to be implemented
 	}
