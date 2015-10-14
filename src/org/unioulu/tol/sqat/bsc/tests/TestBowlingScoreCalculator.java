@@ -11,7 +11,10 @@ public class TestBowlingScoreCalculator {
 	@Test
 	public void testFrame() {
 		Frame frame = new Frame( 3, 4 );
-		assertEquals( expected, frame.getThrowValues());
+		int[] expected = new int[2];
+		expected[0] = 3;
+		expected[1] = 4;
+		assertArrayEquals( expected, frame.getThrowValues());
 	}
 	
 	
