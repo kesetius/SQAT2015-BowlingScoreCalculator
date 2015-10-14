@@ -266,3 +266,6 @@ UnitTestCaseAction 1444827567475 TestBowlingScoreCalculator.java OK
 UnitTestSessionAction 1444827567475 TestBowlingScoreCalculator OK
 RefactoringAction 1444827750510 TestBowlingScoreCalculator.java REMOVE testSpareFollowedByStrike_105_105() METHOD
 EditAction 1444827751587 TestBowlingScoreCalculator.java 3995 15 76 14
+UnitTestCaseAction 1444827753193 TestBowlingScoreCalculator.java OK
+UnitTestSessionAction 1444827753194 TestBowlingScoreCalculator OK
+EditAction 1444828078523 Frame.java 1056 7 13 0
