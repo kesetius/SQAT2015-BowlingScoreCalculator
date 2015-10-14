@@ -162,7 +162,7 @@ public class TestBowlingScoreCalculator {
 		this.bg.addFrame( new Frame(4,5)  );
 		this.bg.addFrame( new Frame(8,1)  );
 		this.bg.addFrame( new Frame(2,6)  );
-		assertEquals( 103, this.bg.score());	
+		assertEquals( 105, this.bg.score());	
 	}
 
 }
