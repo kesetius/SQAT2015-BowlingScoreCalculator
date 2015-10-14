@@ -249,3 +249,9 @@ RefactoringAction 1444827320657 TestBowlingScoreCalculator.java RENAME testSpare
 RefactoringAction 1444827371461 TestBowlingScoreCalculator.java RENAME testStrikeFollowedBySpare()=>void testStrikeFollowedBySpare_() METHOD
 RefactoringAction 1444827373487 TestBowlingScoreCalculator.java RENAME testStrikeFollowedBySpare_()=>void testStrikeFollowedBySpare_103_103() METHOD
 EditAction 1444827375765 TestBowlingScoreCalculator.java 3996 15 76 14
+UnitTestCaseAction 1444827377460 TestBowlingScoreCalculator.java OK
+UnitTestSessionAction 1444827377460 TestBowlingScoreCalculator OK
+RefactoringAction 1444827384573 TestBowlingScoreCalculator.java ADD void testStrikeFollowedBySpare_103_103()/2 METHOD
+RefactoringAction 1444827388101 TestBowlingScoreCalculator.java RENAME testStrikeFollowedBySpare_103_103()/2=>void testSpareFollowedBySpare_103_103() METHOD
+RefactoringAction 1444827391132 TestBowlingScoreCalculator.java RENAME testSpareFollowedBySpare_103_103()=>void testSpareFollowedByStrike_103_103() METHOD
+EditAction 1444827396980 TestBowlingScoreCalculator.java 4532 16 88 15
