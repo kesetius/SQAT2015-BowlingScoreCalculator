@@ -88,3 +88,7 @@ UnitTestSessionAction 1444824478377 TestBowlingScoreCalculator OK
 EditAction 1444824484142 TestBowlingScoreCalculator.java 760 3 9 3
 EditAction 1444824487050 TestBowlingScoreCalculator.java 763 3 9 3
 EditAction 1444824490584 TestBowlingScoreCalculator.java 764 3 9 3
+RefactoringAction 1444824494277 TestBowlingScoreCalculator.java ADD void testAddFrame_1_1()/2 METHOD
+RefactoringAction 1444824497293 TestBowlingScoreCalculator.java RENAME testAddFrame_1_1()/2=>void testAddFrame_2_1() METHOD
+RefactoringAction 1444824498309 TestBowlingScoreCalculator.java RENAME testAddFrame_2_1()=>void testAddFrame_2_2() METHOD
+EditAction 1444824509467 TestBowlingScoreCalculator.java 933 4 12 4
