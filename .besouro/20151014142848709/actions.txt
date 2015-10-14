@@ -73,3 +73,5 @@ RefactoringAction 1444824167158 TestBowlingScoreCalculator.java ADD void testAdd
 RefactoringAction 1444824170672 TestBowlingScoreCalculator.java RENAME testAddFrame=>void testAddFrame() METHOD
 RefactoringAction 1444824263768 BowlingGame.java ADD void frameCount() METHOD
 EditAction 1444824336431 BowlingGame.java 649 6 3 0
+RefactoringAction 1444824355947 TestBowlingScoreCalculator.java ADD void testFrameCount() METHOD
+EditAction 1444824360825 TestBowlingScoreCalculator.java 727 3 8 2
