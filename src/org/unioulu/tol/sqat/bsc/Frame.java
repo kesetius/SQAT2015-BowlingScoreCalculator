@@ -14,6 +14,10 @@ public class Frame {
 		this.subSequent = frame;
 	}
 	
+	public Frame getSubSequent() {
+		return this.subSequent;
+	}
+	
 	public int[] getThrowValues() {
 		int[] anArray = new int[2];
 		anArray[0] = this.firstThrow;

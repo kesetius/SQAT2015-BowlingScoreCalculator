@@ -295,3 +295,7 @@ CompilationAction 1444828275468 TestBowlingScoreCalculator.java
 CompilationAction 1444828275468 TestBowlingScoreCalculator.java
 CompilationAction 1444828275468 TestBowlingScoreCalculator.java
 EditAction 1444828289673 TestBowlingScoreCalculator.java 4173 16 76 14
+CompilationAction 1444828289933 TestBowlingScoreCalculator.java
+CompilationAction 1444828289934 TestBowlingScoreCalculator.java
+RefactoringAction 1444828309087 Frame.java ADD void getSubSequent() METHOD
+EditAction 1444828318513 Frame.java 1231 9 15 0
