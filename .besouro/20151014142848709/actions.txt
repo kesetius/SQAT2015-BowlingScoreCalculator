@@ -194,3 +194,7 @@ EditAction 1444826427000 BowlingGame.java 956 6 7 0
 UnitTestCaseAction 1444826430299 TestBowlingScoreCalculator.java OK
 UnitTestSessionAction 1444826430299 TestBowlingScoreCalculator OK
 EditAction 1444826437919 BowlingGame.java 951 6 7 0
+RefactoringAction 1444826461405 TestBowlingScoreCalculator.java ADD void testSpare FIELD
+RefactoringAction 1444826466929 TestBowlingScoreCalculator.java RENAME testSpare=>void testSpare() METHOD
+RefactoringAction 1444826506999 TestBowlingScoreCalculator.java RENAME testSpare()=>void testSpare_88_88() METHOD
+EditAction 1444826524295 TestBowlingScoreCalculator.java 3073 11 58 10
