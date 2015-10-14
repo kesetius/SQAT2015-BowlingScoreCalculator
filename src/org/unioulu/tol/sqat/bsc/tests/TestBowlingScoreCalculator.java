@@ -109,6 +109,12 @@ public class TestBowlingScoreCalculator {
 		Frame frame = new Frame ( 1, 8 );
 		assertEquals( false, frame.isSpare() );
 	}
+	
+	@Test
+	public void isSpare_100_false() {
+		Frame frame = new Frame ( 10, 0 );
+		assertEquals( false, frame.isSpare() );
+	}
 
 	
 	
