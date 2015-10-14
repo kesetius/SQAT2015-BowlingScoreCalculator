@@ -152,8 +152,8 @@ public class TestBowlingScoreCalculator {
 	@Test
 	public void testSpareFollowedByStrike_103_103() {
 		this.bg = new BowlingGame();
-		this.bg.addFrame( new Frame(4,6) );
-		this.bg.addFrame( new Frame(10,0)  );
+		this.bg.addFrame( new Frame(4,6)  );
+		this.bg.addFrame( new Frame(10,0) );
 		this.bg.addFrame( new Frame(7,2)  );
 		this.bg.addFrame( new Frame(3,6)  );
 		this.bg.addFrame( new Frame(4,4)  );
