@@ -19,7 +19,6 @@ public class TestBowlingScoreCalculator {
 	
 	@Test
 	public void testFrameScore_23_5() {
-		
 		Frame frame = new Frame( 2,3 );
 		assertEquals( 5, frame.score());
 		
