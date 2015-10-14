@@ -1,6 +1,7 @@
 1444823761284 test-last 1 1632 false
-1444823800216 refactoring 2A 38 false
-1444823800414 regression 1 0 false
-1444823904772 test-addition 1 104 false
-1444823929639 regression 2 24 false
-1444823956769 refactoring 2A 27 false
+1444823800216 refactoring 2A 38 true
+1444823800414 regression 1 0 true
+1444823904772 test-addition 1 104 true
+1444823929639 regression 2 24 true
+1444823956769 refactoring 2A 27 true
+1444824412245 test-first 4 455 true

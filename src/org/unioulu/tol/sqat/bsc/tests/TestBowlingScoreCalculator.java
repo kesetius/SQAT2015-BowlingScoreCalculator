@@ -26,6 +26,7 @@ public class TestBowlingScoreCalculator {
 		assertEquals( 5, frame.score());
 	}
 	
+	@Test
 	public void testAddFrame() {
 		
 		this.bg.addFrame( new Frame(1,5) );
