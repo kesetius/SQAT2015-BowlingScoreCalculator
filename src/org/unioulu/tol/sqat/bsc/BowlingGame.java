@@ -30,7 +30,7 @@ public class BowlingGame {
 		for( Frame frame : this.frames) {
 			
 			if( strike == true ) {
-				sum += frame.score()
+				sum += frame.score();
 				strike = false;				
 			}
 			
