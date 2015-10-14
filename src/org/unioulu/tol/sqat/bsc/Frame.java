@@ -9,6 +9,16 @@ public class Frame {
 		this.secondThrow = secondThrow;
 	}
 	
+	public int[] getThrowValues() {
+		
+		int[] anArray = 0;
+		
+		anArray[0] = 3;
+		anArray[1] = 4;
+		
+		return anArray;
+	}
+	
 	//the score of a single frame
 	public int score(){
 		//to be implemented

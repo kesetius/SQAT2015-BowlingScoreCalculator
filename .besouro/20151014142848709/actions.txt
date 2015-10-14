@@ -7,3 +7,13 @@ CompilationAction 1444822502574 TestBowlingScoreCalculator.java
 RefactoringAction 1444822514980 TestBowlingScoreCalculator.java ADD import org.unioulu.tol.sqat.bsc.BowlingGame IMPORT
 CompilationAction 1444822517063 TestBowlingScoreCalculator.java
 EditAction 1444822540940 TestBowlingScoreCalculator.java 308 1 2 0
+FileOpenedAction 1444822986204 Frame.java 794 6 7 0
+RefactoringAction 1444823065328 TestBowlingScoreCalculator.java RENAME test()=>void testFrame_() METHOD
+RefactoringAction 1444823068842 TestBowlingScoreCalculator.java RENAME testFrame_()=>void testFrame_first() METHOD
+RefactoringAction 1444823111859 TestBowlingScoreCalculator.java RENAME testFrame_first()=>void testFrame() METHOD
+RefactoringAction 1444823127327 TestBowlingScoreCalculator.java ADD import org.unioulu.tol.sqat.bsc.Frame IMPORT
+RefactoringAction 1444823255637 Frame.java ADD int get FIELD
+RefactoringAction 1444823258155 Frame.java RENAME get=>int getTh FIELD
+RefactoringAction 1444823260672 Frame.java RENAME getTh=>int getThrowValue() METHOD
+RefactoringAction 1444823270207 Frame.java RENAME getThrowValue()=>int getThrowValues() METHOD
+EditAction 1444823444586 Frame.java 926 7 11 0
