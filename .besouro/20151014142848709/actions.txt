@@ -106,3 +106,4 @@ RefactoringAction 1444824700524 TestBowlingScoreCalculator.java ADD void initial
 EditAction 1444824724339 TestBowlingScoreCalculator.java 1457 6 23 5
 EditAction 1444824739973 TestBowlingScoreCalculator.java 1458 6 23 5
 EditAction 1444824755002 TestBowlingScoreCalculator.java 1490 6 24 5
+EditAction 1444824773581 TestBowlingScoreCalculator.java 1584 6 27 5

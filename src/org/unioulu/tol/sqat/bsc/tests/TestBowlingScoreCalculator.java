@@ -48,6 +48,7 @@ public class TestBowlingScoreCalculator {
 	
 	@Test
 	public void testAddFrame_2_2() {
+		this.bg = new BowlingGame();
 		this.bg.addFrame( new Frame(1,5) );
 		this.bg.addFrame( new Frame(3,6) );
 		assertEquals( 2, bg.getFrameCount());
@@ -55,7 +56,8 @@ public class TestBowlingScoreCalculator {
 	
 	@Test
 	public void testAddFrame_10_10() {
-		
+		this.bg = new BowlingGame();
+		this.initializeGame10Frames();
 		assertEquals( 10, bg.getFrameCount());	
 	}
 	
