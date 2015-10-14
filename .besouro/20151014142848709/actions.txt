@@ -258,3 +258,6 @@ EditAction 1444827396980 TestBowlingScoreCalculator.java 4532 16 88 15
 UnitTestCaseAction 1444827398697 TestBowlingScoreCalculator.java FAIL
 UnitTestSessionAction 1444827398697 TestBowlingScoreCalculator FAIL
 EditAction 1444827547926 TestBowlingScoreCalculator.java 4532 16 88 15
+RefactoringAction 1444827560390 TestBowlingScoreCalculator.java RENAME testSpareFollowedByStrike_103_103()=>void testSpareFollowedByStrike_13_103() METHOD
+RefactoringAction 1444827561914 TestBowlingScoreCalculator.java RENAME testSpareFollowedByStrike_13_103()=>void testSpareFollowedByStrike_105_103() METHOD
+EditAction 1444827563398 TestBowlingScoreCalculator.java 4532 16 88 15

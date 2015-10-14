@@ -150,7 +150,7 @@ public class TestBowlingScoreCalculator {
 	}
 	
 	@Test
-	public void testSpareFollowedByStrike_103_103() {
+	public void testSpareFollowedByStrike_105_105() {
 		this.bg = new BowlingGame();
 		this.bg.addFrame( new Frame(4,6)  );
 		this.bg.addFrame( new Frame(10,0) );
