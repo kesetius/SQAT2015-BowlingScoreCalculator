@@ -10,7 +10,7 @@ public class BowlingGame {
 	
 	public BowlingGame(){}
 	
-	public int frameCount() {
+	public int getFrameCount() {
 		return this.frames.size();
 	}
 	
